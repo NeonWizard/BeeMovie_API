@@ -1,0 +1,11 @@
+{
+  "name": "beeAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "http://github.com/NeonWizard/BeeMovie_API",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0"
+  }
+}
