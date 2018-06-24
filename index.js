@@ -35,12 +35,9 @@ let read_file = function() {
 
 lines = read_file()
 
-console.log(lines[0]);
-console.log("\n" + lines[1] + "\n");
-
-app.get("/line", function(req, res) {
+app.get("/", function(req, res) {
   let line = lines[Math.floor(Math.random() * lines.length)]
-  res.json({ "line": line })
+  res.send(line);
 })
 
 app.listen(3054, function() {
